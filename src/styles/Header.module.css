@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background-color: #343a40;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  color: #f8f9fa; /* светлый текст */
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #007bff; /* синий при наведении */
+  text-decoration: underline;
+}
+
+.active {
+  color: #28a745; /* зеленый для активной страницы */
+  font-weight: bold;
+}
